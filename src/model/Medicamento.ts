@@ -1,0 +1,1 @@
+// As Classes Medicamento (Medicamento.ts) e Cosmético (Cosmetico.ts) serão Sub Classes da Classe Produto (Heranças)
