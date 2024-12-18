@@ -4,6 +4,7 @@ import { colors } from '../util/Colors'
 
 export abstract class Produto {
 
+    // Atributos
     private _id: number;
     private _nome: string;
     private _tipo: number;
@@ -62,7 +63,7 @@ export abstract class Produto {
 	}
 
     
-    // Métodos
+    // Métodos Auxiliares
 
     public visualizar(){
         let tipo: string;
