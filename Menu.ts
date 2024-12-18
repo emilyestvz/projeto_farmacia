@@ -1,11 +1,16 @@
 import readlineSync from 'readline-sync';
 import { colors } from './src/util/Colors';
+import { Produto } from './src/model/Produto';
+import { Medicamento } from './src/model/Medicamento';
+import { Cosmetico } from './src/model/Cosmetico';
 
 export function main(){
 
     let opcao, valor, tipo, estoque, id;
     let generico, fragrancia, nome: string;
     const categorias = ['Medicamento', 'Cosmetico'];
+
+    
 
     let continuar = true;
 
