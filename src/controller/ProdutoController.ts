@@ -27,7 +27,7 @@ export class ProdutoController implements ProdutoRepository {
         const buscarId = this.buscarArray(numero);
 
         if (buscarId) 
-            console.log('✅ Produto encontrado: ')
+            console.log('✅ Produto encontrado! ')
         else
         console.log('❌ Produto não encontrado!');
     }
