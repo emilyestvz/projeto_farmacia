@@ -1,5 +1,5 @@
-import { ProdutoRepository } from '../../repository/ProdutoRepository';
-import { Produto } from '../Produto';
+import { ProdutoRepository } from '../repository/ProdutoRepository';
+import { Produto } from '../model/Produto';
 
 export class ProdutoController implements ProdutoRepository {
 
