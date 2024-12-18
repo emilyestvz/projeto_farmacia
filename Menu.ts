@@ -3,6 +3,8 @@ import { colors } from './src/util/Colors';
 import { Produto } from './src/model/Produto';
 import { Medicamento } from './src/model/Medicamento';
 import { Cosmetico } from './src/model/Cosmetico';
+import { ProdutoController } from './src/model/controller/ProdutoController';
+
 
 export function main(){
 
