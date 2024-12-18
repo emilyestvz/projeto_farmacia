@@ -175,7 +175,8 @@ export function main(){
                 console.log(colors.fg.whitestrong);
                 console.log('\n\t💊 SAINDO DO SISTEMA... VOLTE SEMPRE! ');
                 console.log(colors.reset);
-                
+                console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
+
                 continuar = false;
                 about();
                 break;
@@ -199,11 +200,11 @@ function keypress(): void {
 
 export function about(): void {
     console.log(colors.bg.black, colors.fg.redstrong)
-    console.log('\n         Desenvolvido por: ');
+    console.log('\n             Desenvolvido por: ');
     console.log('           Emily Cristiny Dias ✨');
     console.log('           github.com/emilyestvz 👾');
-    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
     console.log(colors.reset);
+    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
 }
 
 main();
